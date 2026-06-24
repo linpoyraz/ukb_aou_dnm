@@ -2,15 +2,14 @@
 
 All scripts required to generate data and figures for ["A sibling study of variation in parental mutation rates"](https://www.biorxiv.org/content/10.64898/2026.05.10.724105v1)
 
-The notebooks are numbered in the order they are run. The overall flow is aou/ 1-21, then pca/ 1-6, then aou/ 22-30.
-
-## aou/
+## aou
 
 This directory includes all Jupyter notebooks used to run analyses on the All of Us Researcher Workbench (access required)
+The notebooks are numbered in the order they are run. The overall flow is aou/ 1-21, then pca/ 1-6, then aou/ 22-30.
 
 | Notebook | Description |
 | --- | --- |
-| 1_methods_relatedness_python | download array data and subset it to kinship between 0.177-0.354 |
+| 1_methods_relatedness_python | download array data and subset it to related individuals |
 | 2_methods_relatedness_R | identify parent-offspring pairs, siblings, trios, twins, and quads |
 | 3_call_ibd2_using_snipar_python | call IBD2 segments using snipar |
 | 4_analyze_snipar_out_R | combine IBD calls across chromosomes |
@@ -41,7 +40,7 @@ This directory includes all Jupyter notebooks used to run analyses on the All of
 | 29_rev1_lig1_sibling_compare_R | generate files to test whether the sibling carrying the disruptive REV1 or LIG1 mutation has a higher mutation rate (clonal hematopoiesis vs germline) |
 | 30_rev1_lig1_replication_cpg_R | test for a REV1-replication timing relationship and a LIG1-methylation relationship |
 
-## pca/
+## pca
 
 This directory includes all Jupyter notebooks used to run PCA on the 3400 HGDP-1000 genome samples and project UKB and AoU samples. Analyses were run on the AoU Researcher Workbench and UK Biobank Research Analysis Platform (access required).
 
