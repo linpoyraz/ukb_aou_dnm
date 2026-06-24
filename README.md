@@ -52,3 +52,11 @@ This directory includes all Jupyter notebooks used to run PCA on the 3400 HGDP-1
 | 4_make_loadings_ukb_style_R | modify the PCA variants so they match the UKB ref/alt configuration |
 | 5_project_ukb_python | project UKB samples onto the HGDP+1KG PC-space (run on the UKB RAP) |
 | 6_analyze_pca_R | merge and clean PCs from HGDP+1KG, UKB, and AoU |
+
+## data 
+
+This directory includes useful files. 
+
+| File | Description |
+| --- | --- |
+| giab_difficult_merged.bed.gz | bed file including error-prone regions in the UKB and AoU |
