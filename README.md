@@ -57,4 +57,4 @@ This directory includes useful files.
 
 | File | Description |
 | --- | --- |
-| giab_difficult_merged.bed.gz | bed file including error-prone regions in the UKB and AoU |
+| giab_difficult_merged.bed.gz | bed file including error-prone regions in the UKB and AoU (hg38)|
