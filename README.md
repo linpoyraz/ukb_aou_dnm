@@ -1,4 +1,4 @@
-# ukb_aou_dnm
+# A sibling study of variation in parental mutation rates
 
 All scripts required to generate data and figures for ["A sibling study of variation in parental mutation rates"](https://www.biorxiv.org/content/10.64898/2026.05.10.724105v1)
 
