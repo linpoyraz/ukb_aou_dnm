@@ -38,6 +38,10 @@ The notebooks are numbered in the order they are run. The overall flow is aou/ 1
 | 29_rev1_lig1_sibling_compare_R | generate files to test whether the sibling carrying the disruptive REV1 or LIG1 mutation has a higher mutation rate (clonal hematopoiesis vs germline) |
 | 30_rev1_lig1_replication_cpg_R | test for a REV1-replication timing relationship and a LIG1-methylation relationship |
 
+## ukb
+ 
+This directory contains the pipeline for calling de novo mutations (DNMs) in the UK Biobank (UKB) and performing burden tests. All steps are orchestrated from `pipeline.ipynb`, a Bash kernel notebook that submits jobs to the DNAnexus platform via the `dx` CLI (access required). Several steps call secondary notebooks run in JupyterLab on DNAnexus. Steps must be executed sequentially, as each step depends on the outputs of the previous one.
+
 ## pca
 
 This directory includes all Jupyter notebooks used to run PCA on the 3400 HGDP-1000 genome samples and project UKB and AoU samples. Analyses were run on the AoU Researcher Workbench and UK Biobank Research Analysis Platform (access required).
